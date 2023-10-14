@@ -1,0 +1,105 @@
+Script started on Mon 03 Jan 2022 08:55:20 PM EST
+============================
+Pre-testing Helper Functions
+============================
+
+------------------------
+Function: getIntPositive
+------------------------
+For each of these tests, enter the following
+three values (space delimited):  -1 0 24
+
+TEST-1: -1 0 24
+ERROR: Enter a positive value: ERROR: Enter a positive value: <PASSED>
+TEST-2: -1 0 24
+ERROR: Enter a positive value: ERROR: Enter a positive value: <PASSED>
+TEST-3: -1 0 24
+ERROR: Enter a positive value: ERROR: Enter a positive value: <PASSED>
+
+---------------------------
+Function: getDoublePositive
+---------------------------
+For each of these tests, enter the following
+three values (space delimited):  -1 0 82.5
+
+TEST-1: -1 0 82.5
+ERROR: Enter a positive value: ERROR: Enter a positive value: <PASSED>
+TEST-2: -1 0 82.5
+ERROR: Enter a positive value: ERROR: Enter a positive value: <PASSED>
+TEST-3: -1 0 82.5
+ERROR: Enter a positive value: ERROR: Enter a positive value: <PASSED>
+
+---------------------------
+Function: convertLbsKg
+---------------------------
+Test-1: <PASSED>
+Test-2: <PASSED>
+Test-3: <PASSED>
+---------------------------
+Function: convertLbsG
+---------------------------
+Test-1: <PASSED>
+Test-2: <PASSED>
+Test-3: <PASSED>
+---------------------------
+Function: convertLbs
+---------------------------
+Test-1: <PASSED>
+
+===========================
+Starting Main Program Logic
+===========================
+
+Cat Food Cost Analysis
+======================
+
+Enter the details for 3 dry food bags of product data for analysis.
+NOTE: A 'serving' is 64g
+
+Cat Food Product #1
+--------------------
+SKU           : 0
+ERROR: Enter a positive value: 12221
+PRICE         : $0
+ERROR: Enter a positive value: 26.99
+WEIGHT (LBS)  : 0
+ERROR: Enter a positive value: 2.5
+CALORIES/SERV.: 0
+ERROR: Enter a positive value: 325
+
+Cat Food Product #2
+--------------------
+SKU           : 34443
+PRICE         : $71.99
+WEIGHT (LBS)  : 13.0
+CALORIES/SERV.: 325
+
+Cat Food Product #3
+--------------------
+SKU           : 23332
+PRICE         : $41.99
+WEIGHT (LBS)  : 5.5
+CALORIES/SERV.: 325
+
+SKU         $Price    Bag-lbs Cal/Serv
+------- ---------- ---------- --------
+0012221      26.99        2.5      325
+0034443      71.99       13.0      325
+0023332      41.99        5.5      325
+
+Analysis Report (Note: Serving = 64g)
+---------------
+SKU         $Price    Bag-lbs     Bag-kg     Bag-g Cal/Serv Servings  $/Serv   $/Cal
+------- ---------- ---------- ---------- --------- -------- -------- ------- -------
+0012221      26.99        2.5     1.1340      1133      325     17.7    1.52 0.00469
+0034443      71.99       13.0     5.8967      5896      325     92.1    0.78 0.00240 ***
+0023332      41.99        5.5     2.4948      2494      325     39.0    1.08 0.00332
+
+Final Analysis
+--------------
+Based on the comparison data, the PURRR-fect economical option is:
+SKU:0034443 Price: $71.99
+
+Happy shopping!
+
+Script done on Mon 03 Jan 2022 08:55:39 PM EST

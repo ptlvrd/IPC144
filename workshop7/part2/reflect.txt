@@ -1,0 +1,43 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #7
+Full Name  : patel vrundaben vijaykumar
+Student ID#: 158605220
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+answer-1
+i was successful in coding non-repetitive sections of logic in the game
+play portion of this workshop because i first analyzed the code and understood
+and wrote it down into small parts. i identified the common areas the repetitive
+sections and extracted them into functions. i then identified the loops i need
+that are needed to use to perform multiple times. i used arrays to store and 
+manipulate data because it helped me reduce reppetive code by appyling operatins 
+to whole code instead of each element.
+
+answer-2
+Structures offer a means of bringing together various variables that are connected
+to one another. we may isolate the variables into a structure to handle and analyse 
+the data more effectively than dealing with separate variables distributed across the code.
+we may improve the structure of the code by grouping relevant data into structures. 
+By defining the structure only once and utilising it throughout the program, we may
+cut down on the number of unnecessary variable declarations. the code becomes clearer
+and simpler to understand as a result.
+
+answer-3
+ do{
+     for (y = 0; y < game.pathLength; y++) 
+       {
+         if (recentPosition[y] == 'V') 
+            {
+                count++;
+            }
+       }
+    }
+ i have an outer do while loop that contains a nested for loop. 
+ Inside that loop, there is a nested if statement.This outline demonstrates
+ three levels of nesting.

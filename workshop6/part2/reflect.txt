@@ -1,0 +1,39 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #6
+Full Name  : patel vrundaben vijaykumar
+Student ID#: 158605220
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+answer1
+there are three types of iteration constructs a for loop, while loop and do-while loop. 
+although it is true that we can make any one of them behave the same way but they 
+each have unique structures and were created with certain purposes in mind. when working with arrays,
+i prefer do-while loop and mostly it is favored because it ensures that the body of the loop 
+will be run at least once. This can be helpful for checking user input or when we want to take
+action on all of the array's elements, starting with the first one. A do-while loop enables us 
+to handle the initial element of an array and then iterate over the other items of the array as 
+needed because the number of elements in an array might vary.
+
+answer2
+to find where the problem was located,while testing, i first created a test plan about how the program should
+work and what outputs it should give, then i tested each statements and function of the program to 
+make sure if they work as expected, later i re ran the program as whole and i found it to work as expected.
+while debugging, The compiler or interpreter will frequently give error messages(shows red lines) if there are
+syntax mistakes, describing where and what kind of error there is.also, i always ask my friend to check my code for 
+any logical mistakes that i might have done.
+
+answer3
+i will first open the files w6p2_master_output.txt which has correct output and output.txt which has my ouput
+then to find differences i will comapre the content of both files and mostly pay attention to  line number 6,
+which is where the error feedback says the error.also,i comapred the character in column 33, The character should
+have been "[0]" with an ASCII code of 48, but i printed "[5]" with an ASCII code of 53, according to the error
+feedback. later i will match the values of both files, the incorrect response indicates that while i should have 
+entered "Enter your monthly NET income: $0," i instead entered "Enter your monthly NET income: $567.89." so here 
+the error was of inputing the values, so i re run the code and entered the correct values as intended which led to
+creating a new output file hence the outputs matched, and i can now submit my work successfully. 

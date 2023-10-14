@@ -1,0 +1,79 @@
+Script started on Mon 03 Jan 2022 08:47:30 PM EST
+================================
+         Treasure Hunt!
+================================
+
+PLAYER Configuration
+--------------------
+Enter a single character to represent the player: @
+Set the number of lives: 0
+     Must be between 1 and 10!
+Set the number of lives: 11
+     Must be between 1 and 10!
+Set the number of lives: 3
+Player configuration set-up is complete
+
+GAME Configuration
+------------------
+Set the path length (a multiple of 5 between 10-70): 9
+     Must be a multiple of 5 and between 10-70!!!
+Set the path length (a multiple of 5 between 10-70): 71
+     Must be a multiple of 5 and between 10-70!!!
+Set the path length (a multiple of 5 between 10-70): 19
+     Must be a multiple of 5 and between 10-70!!!
+Set the path length (a multiple of 5 between 10-70): 35
+Set the limit for number of moves allowed: 2
+    Value must be between 3 and 26
+Set the limit for number of moves allowed: 27
+    Value must be between 3 and 26
+Set the limit for number of moves allowed: 10
+
+BOMB Placement
+--------------
+Enter the bomb positions in sets of 5 where a value
+of 1=BOMB, and 0=NO BOMB. Space-delimit your input.
+(Example: 1 0 0 1 1) NOTE: there are 35 to set!
+   Positions [ 1- 5]: 0 0 0 0 1
+   Positions [ 6-10]: 1 0 0 1 1
+   Positions [11-15]: 1 0 1 1 1
+   Positions [16-20]: 0 1 0 0 0
+   Positions [21-25]: 1 0 1 0 0
+   Positions [26-30]: 0 0 0 1 0
+   Positions [31-35]: 1 0 1 0 1
+BOMB placement set
+
+TREASURE Placement
+------------------
+Enter the treasure placements in sets of 5 where a value
+of 1=TREASURE, and 0=NO TREASURE. Space-delimit your input.
+(Example: 1 0 0 1 1) NOTE: there are 35 to set!
+   Positions [ 1- 5]: 0 0 1 0 0
+   Positions [ 6-10]: 1 1 1 0 1
+   Positions [11-15]: 1 1 0 1 0
+   Positions [16-20]: 0 1 0 0 0
+   Positions [21-25]: 1 1 0 1 0
+   Positions [26-30]: 1 0 1 0 0
+   Positions [31-35]: 0 1 1 1 1
+TREASURE placement set
+
+GAME configuration set-up is complete...
+
+------------------------------------
+TREASURE HUNT Configuration Settings
+------------------------------------
+Player:
+   Symbol     : @
+   Lives      : 3
+   Treasure   : [ready for gameplay]
+   History    : [ready for gameplay]
+
+Game:
+   Path Length: 35
+   Bombs      : 00001100111011101000101000001010101
+   Treasure   : 00100111011101001000110101010001111
+
+====================================
+~ Get ready to play TREASURE HUNT! ~
+====================================
+
+Script done on Mon 03 Jan 2022 08:47:56 PM EST

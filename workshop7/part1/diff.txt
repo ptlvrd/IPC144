@@ -1,0 +1,14 @@
+In line number 39 of your output:
+The output should be:
+   Positions [16-20]: 0 1 0 0 0
+                      ^
+But your output is: 
+   Positions [16-20]: 1 0 1 1 1
+                      ^
+
+Unmatched character details:
+The character in column 23 is supposed to be:
+  [0] ASCII code(48)
+but you printed
+  [1] ASCII code(49)
+

@@ -1,0 +1,146 @@
+Script started on Mon 03 Jan 2022 08:43:04 PM EST
++--------------------------+
++   Wish List Forecaster   |
++--------------------------+
+
+Enter your monthly NET income: $0
+ERROR: You must have a consistent monthly income of at least $500.00
+
+Enter your monthly NET income: $500000
+ERROR: Liar! I'll believe you if you enter a value no more than $400000.00
+
+Enter your monthly NET income: $6225.88
+
+How many wish list items do you want to forecast?: 0
+ERROR: List is restricted to between 1 and 10 items.
+
+How many wish list items do you want to forecast?: 11
+ERROR: List is restricted to between 1 and 10 items.
+
+How many wish list items do you want to forecast?: 5
+
+Item-1 Details:
+   Item cost: $39030.15
+   How important is it to you? [1=must have, 2=important, 3=want]: 0
+      ERROR: Value must be between 1 and 3
+   How important is it to you? [1=must have, 2=important, 3=want]: 4
+      ERROR: Value must be between 1 and 3
+   How important is it to you? [1=must have, 2=important, 3=want]: 1
+   Does this item have financing options? [y/n]: N
+      ERROR: Must be a lowercase 'y' or 'n'
+   Does this item have financing options? [y/n]: Y
+      ERROR: Must be a lowercase 'y' or 'n'
+   Does this item have financing options? [y/n]: k
+      ERROR: Must be a lowercase 'y' or 'n'
+   Does this item have financing options? [y/n]: n
+
+Item-2 Details:
+   Item cost: $99.99
+      ERROR: Cost must be at least $100.00
+   Item cost: $1200000
+   How important is it to you? [1=must have, 2=important, 3=want]: 3
+   Does this item have financing options? [y/n]: y
+
+Item-3 Details:
+   Item cost: $350500.25
+   How important is it to you? [1=must have, 2=important, 3=want]: 2
+   Does this item have financing options? [y/n]: n
+
+Item-4 Details:
+   Item cost: $15500.75
+   How important is it to you? [1=must have, 2=important, 3=want]: 1
+   Does this item have financing options? [y/n]: y
+
+Item-5 Details:
+   Item cost: $6575.55
+   How important is it to you? [1=must have, 2=important, 3=want]: 3
+   Does this item have financing options? [y/n]: n
+
+Item Priority Financed        Cost
+---- -------- -------- -----------
+  1      1        n       39030.15
+  2      3        y     1200000.00
+  3      2        n      350500.25
+  4      1        y       15500.75
+  5      3        n        6575.55
+---- -------- -------- -----------
+                      $ 1611606.70
+
+How do you want to forecast your wish list?
+ 1. All items (no filter)
+ 2. By priority
+ 0. Quit/Exit
+Selection: 3
+
+ERROR: Invalid menu selection.
+
+How do you want to forecast your wish list?
+ 1. All items (no filter)
+ 2. By priority
+ 0. Quit/Exit
+Selection: 1
+
+====================================================
+Filter:   All items
+Amount:   $1611606.70
+Forecast: 21 years, 7 months
+NOTE: Financing options are available on some items.
+      You can likely reduce the estimated months.
+====================================================
+
+How do you want to forecast your wish list?
+ 1. All items (no filter)
+ 2. By priority
+ 0. Quit/Exit
+Selection: 2
+
+What priority do you want to filter by? [1-3]: 1
+
+====================================================
+Filter:   by priority (1)
+Amount:   $54530.90
+Forecast: 0 years, 9 months
+NOTE: Financing options are available on some items.
+      You can likely reduce the estimated months.
+====================================================
+
+How do you want to forecast your wish list?
+ 1. All items (no filter)
+ 2. By priority
+ 0. Quit/Exit
+Selection: 2
+
+What priority do you want to filter by? [1-3]: 2
+
+====================================================
+Filter:   by priority (2)
+Amount:   $350500.25
+Forecast: 4 years, 9 months
+====================================================
+
+How do you want to forecast your wish list?
+ 1. All items (no filter)
+ 2. By priority
+ 0. Quit/Exit
+Selection: 2
+
+What priority do you want to filter by? [1-3]: 3
+
+====================================================
+Filter:   by priority (3)
+Amount:   $1206575.55
+Forecast: 16 years, 2 months
+NOTE: Financing options are available on some items.
+      You can likely reduce the estimated months.
+====================================================
+
+How do you want to forecast your wish list?
+ 1. All items (no filter)
+ 2. By priority
+ 0. Quit/Exit
+Selection: 0
+
+Best of luck in all your future endeavours!
+
+
+Script done on Mon 03 Jan 2022 08:43:25 PM EST
