@@ -1,0 +1,5 @@
+﻿  clinic.c
+  core.c
+C:\Users\saumi\OneDrive\Desktop\vrunda\courses\uli\IPC-Project-master\A1\MS3\core.c(187,14): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  a1ms3.vcxproj -> C:\Users\saumi\OneDrive\Desktop\vrunda\courses\uli\IPC-Project-master\A1\MS3\x64\Debug\a1ms3.exe

@@ -1,0 +1,41 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #8
+Full Name  : patel vrundaben vijaykumar
+Student ID#: 158605220
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+answer 1
+Increased flexibility and usability are two advantages of developing helper 
+functions that return values in two different ways (through an argument and/or
+via return). Depending on their particular requirements or preferences, this 
+feature enables function users to select the most appropriate way to retrieve 
+the result. The negative aspect of this design strategy is possible, though. 
+It can be confusing and perhaps risky to have functions that return values by
+way of an argument or via return. The code may become inconsistent and more 
+challenging to read and maintain if a function permits both ways but does not
+specify which technique is chosen to obtain the result.
+
+answer 2
+"calculateReportData" function demonstrates less than perfect cohesion because
+ This function conducts conversions and calculations for various derived values in
+ addition to calculating the report data based on the cat food product information.
+ To improve the cohesion of this function,this function may be modified into a number
+ of smaller ones, each having a single responsibility.
+ "displayReportData" function demonstrates coupling aas it takes ReportData structure and
+ an integer cheapestProd as parameters yet it uses only "ReportData" to display the data
+ cheapestProd parameter is not used which creates confusion. to improve this the unused 
+ cheapestProd parameter should be removed from the function signature.
+
+ answer 3
+the advantage of passing structures to functions is that By passing structures as arguments, 
+You may develop functions that can be reused in various parts of the codebase by passing structures
+as arguments. When dealing with as big structures, providing them by pointer (reference) as opposed
+to value might improve efficiency by preventing unnecessary data copying. the DisplayCatFoodData could
+be improved by supplying a structure pointer that contains all the relevant data rather than giving
+separate points to price and weight.

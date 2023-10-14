@@ -1,0 +1,50 @@
+/*/////////////////////////////////////////////////////////////////////////
+                        Assignment 1 - Milestone 3
+Full Name  :patel vrundaben vijaykumar
+Student ID#:158605220
+Email      :vvpatel20@myseneca.ca
+Section    :mileston3 NBB
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+/////////////////////////////////////////////////////////////////////////*/
+
+answer 1 
+the three functions that i created were;
+1. int nextSlotAvailable(struct Appointment* app, int maxAppointments);
+The function iterates through the array of appointment records and checks each record's patientNumber.
+If it finds an appointment record with a patientNumber less than 1, it means that slot is available for 
+scheduling an appointment, and the function returns the index of that appointment record. This index 
+represents the position in the array where the next available slot is found.
+
+2. int timeSlotAvailable(struct Date date, struct Time time, struct Appointment* app, int maxAppointments);
+is used to check if a specific time slot is available for scheduling an appointment in the array of appointment 
+records. It helps prevent double-booking or overlapping appointment.
+
+3. int validAppointment(int patientNumber, struct Date date, struct Appointment* app, int maxAppointments);
+is used to validate whether a specific appointment is valid or not based on the provided patient number and date.
+It likely checks whether an appointment with the same patient number and date already exists in the array of 
+appointment records to avoid duplicate appointments.
+
+answer 2
+The scanf function can be tricky to use correctly, especially when dealing with different types of input and handling errors.
+Minimizing the use of scanf reduces the chances of incorrect input causing unexpected behavior or crashes in the program.
+As programs grow, maintaining and debugging code with multiple scanf calls can become complex. It can be challenging to
+track where each input is coming from and how it's being used throughout the code. By minimizing scanf calls, the code
+becomes more modular and easier to maintain.
+
+answer 3
+1. nextslotavailable- is placed in findPatientIndexByPatientNum and handle the logic related to creating, managing, and checking
+appointments.it involves iterating through the list of appointments to find availability. Placing it in the appointment management
+module keeps the logic centralized and organized.
+
+2. timeslotavailable- is also placed in findPatientIndexByPatientNum as this function directly involves checking and manipulating the
+appointment array, it makes sense to keep it in the same module as it also takes the date, time, appointment array, and maximum 
+appointments as input. It likely checks if the specified slot is empty or occupied.
+
+3. vALIDappointment- ia also placed in findPatientIndexByPatientNum. This function determines whether a proposed appointment is valid
+based on the patient number, date, and appointment array. It checks if the patient already has an appointment on the same day.
+In general, the decision to place a function in a particular module is influenced by factors like code organization, separation of 
+concerns, data access, and maintainability. 
