@@ -1,0 +1,29 @@
+/*//////////////////////////////////////////////////////////////////////////
+
+                              Reflection
+                             Workshop - #1
+Full Name  : patel vrundaben vijaykuamr
+Student ID#: 158605220
+Email      : vvpatel20@myseneca.ca
+Section    : reflection
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+
+Answers:
+1. yes, i have previous programming experience in java langauge and c language.
+ i learned basic programming in java for example strigs, expressions, functions and others at my high school.
+i learnd programming using c language online where i completed online free courses at codeacademy website and cisco.
+
+2.When a compiler receives a set of instructions as input, a set of machine language instructions is created. 
+Source code is the name for the compiler's input, whereas binary code is the compiler's output. 
+Then tell the operating system to put the binary code into RAM and start running that code so as 
+to start the programme we wrote. Our program's user inputs data while the code is running and gets output from it.
+
+3.i hope to improve on my programming and coding skills to the best of my ability which could promote
+ into my future goal to be a software engineer.
+
+//////////////////////////////////////////////////////////////////////////*/ 

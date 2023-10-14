@@ -1,0 +1,23 @@
+Script started on Mon 03 Jan 2022 08:18:11 PM EST
+Set Shirt Prices
+================
+Enter the price for a SMALL shirt: $17.96
+Enter the price for a MEDIUM shirt: $26.96
+Enter the price for a LARGE shirt: $35.97
+
+Shirt Store Price List
+======================
+SMALL  : $17.96
+MEDIUM : $26.96
+LARGE  : $35.97
+
+Patty's shirt size is 'S'
+Number of shirts Patty is buying: 8
+
+Patty's shopping cart...
+Contains : 8 shirts
+Sub-total: $143.6800
+Taxes    : $ 18.6800
+Total    : $162.3600
+
+Script done on Mon 03 Jan 2022 08:18:26 PM EST

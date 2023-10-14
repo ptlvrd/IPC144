@@ -1,0 +1,54 @@
+Script started on Mon 03 Jan 2022 08:37:49 PM EST
+General Well-being Log
+======================
+Set the year and month for the well-being log (YYYY MM): 2011 1
+   ERROR: The year must be between 2012 and 2022 inclusive
+Set the year and month for the well-being log (YYYY MM): 2023 1
+   ERROR: The year must be between 2012 and 2022 inclusive
+Set the year and month for the well-being log (YYYY MM): 2022 0
+   ERROR: Jan.(1) - Dec.(12)
+Set the year and month for the well-being log (YYYY MM): 2022 13
+   ERROR: Jan.(1) - Dec.(12)
+Set the year and month for the well-being log (YYYY MM): 2011 0
+   ERROR: The year must be between 2012 and 2022 inclusive
+   ERROR: Jan.(1) - Dec.(12)
+Set the year and month for the well-being log (YYYY MM): 2023 13
+   ERROR: The year must be between 2012 and 2022 inclusive
+   ERROR: Jan.(1) - Dec.(12)
+Set the year and month for the well-being log (YYYY MM): 2022 2
+
+*** Log date set! ***
+
+2022-FEB-01
+   Morning rating (0.0-5.0): -0.8
+      ERROR: Rating must be between 0.0 and 5.0 inclusive!
+   Morning rating (0.0-5.0): 5.01
+      ERROR: Rating must be between 0.0 and 5.0 inclusive!
+   Morning rating (0.0-5.0): 4.22
+   Evening rating (0.0-5.0): -0.7
+      ERROR: Rating must be between 0.0 and 5.0 inclusive!
+   Evening rating (0.0-5.0): 5.01
+      ERROR: Rating must be between 0.0 and 5.0 inclusive!
+   Evening rating (0.0-5.0): 5
+
+2022-FEB-02
+   Morning rating (0.0-5.0): 1
+   Evening rating (0.0-5.0): 4.6
+
+2022-FEB-03
+   Morning rating (0.0-5.0): 4.8
+   Evening rating (0.0-5.0): 0
+
+Summary
+=======
+Morning total rating: 10.020
+Evening total rating:  9.600
+----------------------------
+Overall total rating: 19.620
+
+Average morning rating:  3.3
+Average evening rating:  3.2
+----------------------------
+Average overall rating:  3.3
+
+Script done on Mon 03 Jan 2022 08:38:11 PM EST

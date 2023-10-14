@@ -1,0 +1,19 @@
+w2p2.c: In function ‘main’:
+w2p2.c:91:5: error: stray ‘\’ in program
+     printf("\n%33.4lf % 9.4lf % 9.4lf",GSubtotal,GTaxes,GTotal\n"); );
+     ^
+w2p2.c:91:64: error: expected ‘)’ before ‘n’
+     printf("\n%33.4lf % 9.4lf % 9.4lf",GSubtotal,GTaxes,GTotal\n"); );
+                                                                ^
+w2p2.c:91:65: warning: missing terminating " character [enabled by default]
+     printf("\n%33.4lf % 9.4lf % 9.4lf",GSubtotal,GTaxes,GTotal\n"); );
+                                                                 ^
+w2p2.c:91:64: error: missing terminating " character
+     printf("\n%33.4lf % 9.4lf % 9.4lf",GSubtotal,GTaxes,GTotal\n"); );
+                                                                ^
+w2p2.c:174:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+w2p2.c:174:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^

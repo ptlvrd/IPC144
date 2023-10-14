@@ -1,0 +1,14 @@
+In line number 30 of your output:
+The output should be:
+
+^
+But your output is: 
+Daily retail sales represented by coins
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [Empty Line] ASCII code(0)
+but you printed
+  [D] ASCII code(68)
+

@@ -1,0 +1,14 @@
+In line number 7 of your output:
+The output should be:
+Dear teacher,
+^
+But your output is: 
+ Dear teacher,
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [D] ASCII code(68)
+but you printed
+  [Space] ASCII code(32)
+

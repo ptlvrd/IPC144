@@ -1,0 +1,31 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #5
+Full Name  : patel vrundaben vijaykumar
+Student ID#: 158605220
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+ 
+ answer 1
+one of advantage is that it improves the code readability and hence can be understandable. 
+secondly, it saves us from writing a value which can be very complicated and lengthy which some 
+times is time consuminy as writing it for number of times used in the code.
+thirdly, they are easy to search and replace in the code before it is build.
+
+answer 2 
+we do not include additional logic that sums and performs the average because if the
+additional logic to sum and calculate the average of the data was included throughout
+the iteration phase, it would be more difficult to understand and maintain the code. 
+In this case, the iteration's objective is to perform fundamental checks to ensure that the 
+values given by the user are within the acceptable range. secondly, If more logic were 
+added to sum and determine the average, it would be more difficult to comprehend the code,
+especially if the iteration is already doing other validations.
+Instead, the sum and average logic is placed outside of any validation routine because by
+separating the calculation and validation logic, the code becomes more modular and easier to understand.
+When each block is dedicated to a single action, code maintenance and testing are made easier. secondly,
+Without having to worry about the effects of any validation problems, testing the mathematical logic 
+and making sure its accuracy is much easier.

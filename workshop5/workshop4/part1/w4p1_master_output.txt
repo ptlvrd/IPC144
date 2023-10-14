@@ -1,0 +1,85 @@
+Script started on Mon 03 Jan 2022 08:32:29 PM EST
++----------------------+
+Loop application STARTED
++----------------------+
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): R10
+ERROR: Invalid entered value(s)!
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): D2
+ERROR: The number of iterations must be between 3-20 inclusive!
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): D21
+ERROR: The number of iterations must be between 3-20 inclusive!
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): W2
+ERROR: The number of iterations must be between 3-20 inclusive!
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): W21
+ERROR: The number of iterations must be between 3-20 inclusive!
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): F2
+ERROR: The number of iterations must be between 3-20 inclusive!
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): F21
+ERROR: The number of iterations must be between 3-20 inclusive!
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): Q-1
+ERROR: To quit, the number of iterations should be 0!
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): Q1
+ERROR: To quit, the number of iterations should be 0!
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): D3
+DO-WHILE: DDD
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): W3
+WHILE   : WWW
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): F3
+FOR     : FFF
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): W20
+WHILE   : WWWWWWWWWWWWWWWWWWWW
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): F20
+FOR     : FFFFFFFFFFFFFFFFFFFF
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): D20
+DO-WHILE: DDDDDDDDDDDDDDDDDDDD
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): d0
+ERROR: Invalid entered value(s)!
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): w0
+ERROR: Invalid entered value(s)!
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): f0
+ERROR: Invalid entered value(s)!
+
+D = do/while | W = while | F = for | Q = quit
+Enter loop type and the number of times to iterate (Quit=Q0): Q0
+
++--------------------+
+Loop application ENDED
++--------------------+
+
+Script done on Mon 03 Jan 2022 08:33:01 PM EST

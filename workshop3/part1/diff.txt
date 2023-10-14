@@ -1,0 +1,14 @@
+In line number 34 of your output:
+The output should be:
+   of product 3 LESS product 2? ->  0 (price difference: $111.50)
+                                                       ^
+But your output is: 
+   of product 3 LESS product 2? ->  0 (price difference : $111.50)
+                                                       ^
+
+Unmatched character details:
+The character in column 56 is supposed to be:
+  [:] ASCII code(58)
+but you printed
+  [Space] ASCII code(32)
+

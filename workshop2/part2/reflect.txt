@@ -1,0 +1,28 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #2 (P2)
+Full Name  : patel vrundaben vijaykumar
+Student ID#: 158605220
+Email      :vvpatel20@myseneca.ca 
+Section    : reflection
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+answer1;
+Due to the float data type's inherent restrictions in accurately expressing decimal values, price1's problem appears. Calculations employing floating-point values may be affected by the rounding errors and low accuracy they frequently experience.while, Price2, Price3, and Price4 are declared as doubles, which improves accuracy and reduces the possibility of rounding mistakes. Consequently, the other samples perform as expected.
+
+answer2;
+In cases 2 and 3, the 'int' value is explicitly type converted to a 'double' to ensure that the division is carried out as a floating-point operation. In Example 1, when the 'double' literal 100.0 is divided, the 'int' value money is immediately promoted to a 'double'.
+
+answer3,
+a)Given that the division of money by 100 results in truncation, which eliminates the fractional part, the output of the variable result will be 72. 
+b) sample1;output=0 Because an integer was given when %lf requested a double parameter
+   sample2;output=72 Because the %d format specifier is appropriately used to print the integer number
+   sample3:output=72.00 Because %lf assumes a double argument and implicitly promotes the result to a double
+   sample4;output=72 Because the%d format specifier is used appropriately to print an integer
+c)samples 1 and 3 have a problem since the format specifier used by printf and the actual argument given don't match.

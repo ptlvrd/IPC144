@@ -1,0 +1,22 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #4
+Full Name  : patel vrundaben vijaykumar
+Student ID#: 158605220
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+answer1;
+I made my code, especially the iteration and selection logic parts, easy to read and maintain by first declaring the variable names clear and easy to read and understand, which can help to figure out the concept behind iteration and selection statements. Second, I used comments to explain what exactly that particular expression or code does or the logic behind iteration and selection statements. Third, I left some paragraph spaces between the codes, which can easily help us read and do not look condensed.
+
+
+answer2;
+
+Writing difficult and effective code would be far more difficult if nesting was not allowed. Nesting enables programmers to manage the execution of code depending on particular requirements. it would be more complicated to handle codes, to develop, to understand them without nesting. for example it would be difficult to develop the loop inside loop without nesting.
+
+answer3;
+when there are many conditions to bes tested, each 'if' statement is run one after another and tested in the array which can be time consuming and ineffective. The "if/else if.../else" structure enables efficient and systematic testing of various conditions when dealing with many conditions and ranges. To handle the range of values from 1 to 5 in the example above, a series of "if" statements would need to be written, each one testing for a different value. This would take time and make the code more challenging to maintain and know. However, if you utilized "if/else if.../else" logic, you would only have to write 5 conditions, and the code would be more effective, arranged, and understandable.

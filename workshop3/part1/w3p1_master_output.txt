@@ -1,0 +1,45 @@
+Product Information
+===================
+Product-1 (ID:111)
+  Taxed: Y
+  Price: $111.4900
+
+Product-2 (ID:222)
+  Taxed: N
+  Price: $222.9900
+
+Product-3 (ID:111)
+  Taxed: N
+  Price: $334.4900
+
+The average of all prices is: $222.9900
+
+About Relational and Logical Expressions!
+========================================
+1. These expressions evaluate to TRUE or FALSE
+2. FALSE: is always represented by integer value 0
+3. TRUE : is represented by any integer value other than 0
+
+Some Data Analysis...
+=====================
+1. Is product 1 taxable? -> 1
+
+2. Are products 2 and 3 both NOT taxable (N)? -> 1
+
+3. Is product 3 less than testValue ($330.99)? -> 0
+
+4. Is the price of product 3 more than both product 1 and 2 combined? -> 1
+
+5. Is the price of product 1 equal to or more than the price difference
+   of product 3 LESS product 2? ->  0 (price difference: $111.50)
+
+6. Is the price of product 2 equal to or more than the average price? -> 1
+
+7. Based on product ID, product 1 is unique -> 0
+
+8. Based on product ID, product 2 is unique -> 1
+
+9. Based on product ID, product 3 is unique -> 0
+
+
+Script done on Mon 03 Jan 2022 08:13:07 PM EST

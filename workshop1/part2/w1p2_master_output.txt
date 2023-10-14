@@ -1,0 +1,23 @@
+Workshop 1 Part-2
+=================
+
+Using tab specifiers...
+	Tab-1	Tab-2	Tab-3
+	-----	=====	-----
+
+\ this is a back-slash character!
+% this is a percent sign character!
+" this is a double-quote character!
+
+My favourite quotes are:
+1.	"Skill is only developed by hours and hours of work."
+						-Usain Bolt
+
+2.	"It's not about having time. It's about making time."
+						-unknown
+
+3.	"All of us do not have equal talent. But, all of us
+	have an equal opportunity to develop our talents."
+						-A.P.J. Abdul Kalam
+
+Script done on Mon 03 Jan 2022 08:09:36 PM EST

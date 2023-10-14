@@ -1,0 +1,14 @@
+In line number 21 of your output:
+The output should be:
+						-A.P.J. Abdul Kalam
+             ^
+But your output is: 
+						-A.P.J.Abdul Kalam
+             ^
+
+Unmatched character details:
+The character in column 14 is supposed to be:
+  [Space] ASCII code(32)
+but you printed
+  [A] ASCII code(65)
+

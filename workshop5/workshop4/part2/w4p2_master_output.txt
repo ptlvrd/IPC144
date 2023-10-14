@@ -1,0 +1,119 @@
+Script started on Mon 03 Jan 2022 08:30:13 PM EST
+Grocery Shopping
+================
+How many APPLES do you need? : -1
+ERROR: Value must be 0 or more.
+How many APPLES do you need? : 10
+
+How many ORANGES do you need? : -1
+ERROR: Value must be 0 or more.
+How many ORANGES do you need? : 0
+
+How many PEARS do you need? : -1
+ERROR: Value must be 0 or more.
+How many PEARS do you need? : 5
+
+How many TOMATOES do you need? : -1
+ERROR: Value must be 0 or more.
+How many TOMATOES do you need? : 0
+
+How many CABBAGES do you need? : -1
+ERROR: Value must be 0 or more.
+How many CABBAGES do you need? : 15
+
+--------------------------
+Time to pick the products!
+--------------------------
+
+Pick some APPLES... how many did you pick? : 40
+You picked too many... only 10 more APPLE(S) are needed.
+Pick some APPLES... how many did you pick? : -2
+ERROR: You must pick at least 1!
+Pick some APPLES... how many did you pick? : 0
+ERROR: You must pick at least 1!
+Pick some APPLES... how many did you pick? : 5
+Looks like we still need some APPLES...
+Pick some APPLES... how many did you pick? : 40
+You picked too many... only 5 more APPLE(S) are needed.
+Pick some APPLES... how many did you pick? : 5
+Great, that's the apples done!
+
+Pick some PEARS... how many did you pick? : 40
+You picked too many... only 5 more PEAR(S) are needed.
+Pick some PEARS... how many did you pick? : -2
+ERROR: You must pick at least 1!
+Pick some PEARS... how many did you pick? : 0
+ERROR: You must pick at least 1!
+Pick some PEARS... how many did you pick? : 4
+Looks like we still need some PEARS...
+Pick some PEARS... how many did you pick? : 40
+You picked too many... only 1 more PEAR(S) are needed.
+Pick some PEARS... how many did you pick? : 1
+Great, that's the pears done!
+
+Pick some CABBAGES... how many did you pick? : 40
+You picked too many... only 15 more CABBAGE(S) are needed.
+Pick some CABBAGES... how many did you pick? : -2
+ERROR: You must pick at least 1!
+Pick some CABBAGES... how many did you pick? : 0
+ERROR: You must pick at least 1!
+Pick some CABBAGES... how many did you pick? : 12
+Looks like we still need some CABBAGES...
+Pick some CABBAGES... how many did you pick? : 40
+You picked too many... only 3 more CABBAGE(S) are needed.
+Pick some CABBAGES... how many did you pick? : 3
+Great, that's the cabbages done!
+
+All the items are picked!
+
+Do another shopping? (0=NO): 1
+
+Grocery Shopping
+================
+How many APPLES do you need? : 0
+
+How many ORANGES do you need? : 20
+
+How many PEARS do you need? : 0
+
+How many TOMATOES do you need? : 15
+
+How many CABBAGES do you need? : 0
+
+--------------------------
+Time to pick the products!
+--------------------------
+
+Pick some ORANGES... how many did you pick? : 40
+You picked too many... only 20 more ORANGE(S) are needed.
+Pick some ORANGES... how many did you pick? : -2
+ERROR: You must pick at least 1!
+Pick some ORANGES... how many did you pick? : 0
+ERROR: You must pick at least 1!
+Pick some ORANGES... how many did you pick? : 5
+Looks like we still need some ORANGES...
+Pick some ORANGES... how many did you pick? : 40
+You picked too many... only 15 more ORANGE(S) are needed.
+Pick some ORANGES... how many did you pick? : 15
+Great, that's the oranges done!
+
+Pick some TOMATOES... how many did you pick? : 40
+You picked too many... only 15 more TOMATO(ES) are needed.
+Pick some TOMATOES... how many did you pick? : -2
+ERROR: You must pick at least 1!
+Pick some TOMATOES... how many did you pick? : 0
+ERROR: You must pick at least 1!
+Pick some TOMATOES... how many did you pick? : 12
+Looks like we still need some TOMATOES...
+Pick some TOMATOES... how many did you pick? : 40
+You picked too many... only 3 more TOMATO(ES) are needed.
+Pick some TOMATOES... how many did you pick? : 3
+Great, that's the tomatoes done!
+
+All the items are picked!
+
+Do another shopping? (0=NO): 0
+
+Your tasks are done for today - enjoy your free time!
+
+Script done on Mon 03 Jan 2022 08:30:28 PM EST

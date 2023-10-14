@@ -1,0 +1,24 @@
+Script started on Mon 03 Jan 2022 08:37:08 PM EST
+General Well-being Log
+======================
+Set the year and month for the well-being log (YYYY MM): 2011 1
+   ERROR: The year must be between 2012 and 2022 inclusive
+Set the year and month for the well-being log (YYYY MM): 2023 1
+   ERROR: The year must be between 2012 and 2022 inclusive
+Set the year and month for the well-being log (YYYY MM): 2022 0
+   ERROR: Jan.(1) - Dec.(12)
+Set the year and month for the well-being log (YYYY MM): 2022 13
+   ERROR: Jan.(1) - Dec.(12)
+Set the year and month for the well-being log (YYYY MM): 2011 0
+   ERROR: The year must be between 2012 and 2022 inclusive
+   ERROR: Jan.(1) - Dec.(12)
+Set the year and month for the well-being log (YYYY MM): 2023 13
+   ERROR: The year must be between 2012 and 2022 inclusive
+   ERROR: Jan.(1) - Dec.(12)
+Set the year and month for the well-being log (YYYY MM): 2022 2
+
+*** Log date set! ***
+
+Log starting date: 2022-FEB-01
+
+Script done on Mon 03 Jan 2022 08:37:41 PM EST
